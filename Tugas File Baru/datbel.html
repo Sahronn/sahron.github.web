@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+ 
+    <title>Table Data - Sahron Angelina Ihalauw</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>
+ 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+
+    <style type="text/css">
+      .tabel1{
+        font-family: sans-serif;
+        color: #444;
+        border-collapse: collapse;
+        max-width: 20px;
+  margin: 6.5px;
+  height: 20px;
+        border: 10px solid #f2f5f7;
+        margin-top: 50px;
+      }
+      .tabel1 tr th{
+        background: #35a9db;
+        color: #fff;
+        font-weight: normal;
+      }
+      .tabel1, th, td{
+        padding:20px ;
+        text-align: #86dcec;
+      }
+      .tabel1 tr:nth-child(even){
+        background: #86dcec;
+      }
+    </style>
+
+  </head>
+  
+  <body>
+
+    <input type="checkbox"> <!-- terakhir -->
+    <nav>
+      <div class="top">
+        <img src="aron.jpeg" alt="">
+        <h1>Sahron Angelina Ihalauw</h1>
+        <span class = "line"></span>
+      </div>
+
+      <div class="bot">
+        <div class="nav-links">
+          <div class="nav-link-wrapper"><a href="home.html"><img src="https://img.icons8.com/android/22/ffffff/home.png"><span>Home</span></a></div>
+          <div class="nav-link-wrapper"><a href="datbel.html"><img src="https://img.icons8.com/metro/22/ffffff/about.png"/><span>Table Data</span></a></div>
+          <div class="nav-link-wrapper"><a href="form.html"><img src="https://img.icons8.com/metro/22/ffffff/download.png"><span>Form</span></a></div>
+          <div class="nav-link-wrapper"><a href="index.html"><img src="https://img.icons8.com/metro/22/ffffff/export.png"/><span>Sign Out</span></a></div>
+        </div>
+      </div>
+    </nav>
+    <div class="navbar"> <!-- terakhir -->
+      <div class="left">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="right">
+        <h1>F55121030</h1>
+      </div>
+    </div>
+<br>
+
+<center>
+   <h1 align="center">Table Data Produk</h1>
+   <table id="tabelsaya" class="tabel1" >
+    <thead>
+     <tr>
+       <th>No</th>
+      <th>Nama Produk</th>
+      <th>Status</th>
+      <th>Harga</th>
+     </tr>
+     <tr>
+       <td>1</td>
+      <td>Micellar Water</td>
+      <td>COD</td>
+      <td>Rp 21.000</td>
+     </tr>
+      <tr>
+       <td>2</td>
+      <td>Foundation Pink Flash</td>
+      <td>COD</td>
+      <td>Rp 33.000</td>
+     </tr>
+      <tr>
+       <td>3</td>
+      <td>Eye Pallet</td>
+      <td>COD</td>
+      <td>Rp 69.000</td>
+     </tr>
+      <tr>
+       <td>4</td>
+      <td>Lip Matte</td>
+      <td>Cach</td>
+      <td>Rp 21.000</td>
+     </tr>
+      <tr>
+       <td>5</td>
+      <td>Neem Maskr</td>
+      <td>Cash</td>
+      <td>Rp 49.000</td>
+     </tr>
+      <tr>
+       <td>6</td>
+      <td>Lipstik</td>
+      <td>Cach</td>
+      <td>Rp 33.000</td>
+     </tr> 
+     <tr>
+       <td>7</td>
+      <td>Eyebrpw</td>
+      <td>COD</td>
+      <td>Rp 71.000</td>
+     </tr> 
+     <tr>
+       <td>8</td>
+      <td>Night Cream</td>
+      <td>COD</td>
+      <td>Rp 103.000</td>
+     </tr> <tr>
+       <td>9</td>
+      <td>Sunscreen</td>
+      <td>Cash</td>
+      <td>Rp 50.000</td>
+     </tr> <tr>
+       <td>10</td>
+      <td>Serum Gyu</td>
+      <td>COD</td>
+      <td>Rp 82.000</td>
+     </tr>
+     </thead> 
+   </table></center>
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+       <script>
+        $(document).ready(function(){
+          $("#tabelsaya").DataTable();
+        });
+      </script>
+  </body>
+</html>
